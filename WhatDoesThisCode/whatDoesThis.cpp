@@ -160,6 +160,9 @@ void qWhatDoesThis::Render( const q3Transform& tx, bool awake, q3Render* render 
 		q3Vec3(  e.x,  e.y,  e.z )
 	};
 
+    //this is a change
+
+
 	for ( i32 i = 0; i < 36; i += 3 )
 	{
 		q3Vec3 a = q3Mul( world, vertices[ kBoxIndices[ i ] ] );
